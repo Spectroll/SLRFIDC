@@ -1,0 +1,19 @@
+name: SLRFIDC_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - poppler
+  - pip:
+    - langchain
+    - langchain-community
+    - langchain-openai
+    - langchain-chroma
+    - unstructured[all-docs]
+    - pdfplumber
+    - pandas
+    - rapidfuzz
+    - python-dotenv
+    - notebook
